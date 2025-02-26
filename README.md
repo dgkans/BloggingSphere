@@ -7,9 +7,20 @@ BloggingSphere is a full-stack blogging application built using the MERN stack (
 - **Login Form**
   <img width="1431" alt="LoginPage" src="https://github.com/user-attachments/assets/fb02ed0d-693e-4c09-b2b6-03b3329b6307" />
 
-- **Signup Form**
-  
+- **Register Form**
+  <img width="1437" alt="RegisterPage" src="https://github.com/user-attachments/assets/b4835b2e-cc85-4512-bb1d-69ed2600ddb6" />
+
 - **Home Page**
+<img width="1426" alt="HomePage" src="https://github.com/user-attachments/assets/0ba1ecef-8105-4621-b27a-d3749a43497a" />
+
+- **Dashboard Page**
+  <img width="1431" alt="Dashboard_CreateBlog" src="https://github.com/user-attachments/assets/bbfef657-6350-42d4-afae-cb3e23ce366e" />
+
+- **Blogs Page**
+  <img width="1429" alt="BlogsPage" src="https://github.com/user-attachments/assets/25931613-ae92-4547-a4aa-27a00823242f" />
+
+- **Creators Page**
+  <img width="1434" alt="CreatorsPage" src="https://github.com/user-attachments/assets/c2b7e8d9-6898-46e5-ac3c-8903377e59a6" />
 
 ## Features
 - **User Authentication**: Register, Login, Logout
@@ -50,34 +61,27 @@ BloggingSphere is a full-stack blogging application built using the MERN stack (
    cd BloggingSphere
    ```
 
-2. Install dependencies for both frontend and backend:
-   ```sh
-   cd client
-   npm install
-   cd ../server
-   npm install
-   ```
-
-3. Set up environment variables:
+2. Set up environment variables:
    ```env
    PORT=5000
    MONGODB_URI=your-mongodb-uri
    JWT_SECRET=your-secret-key
    ```
 
-4. Run the application:
+3. Run the application:
    - Open two terminal windows:
      **Terminal One:**
      ```sh
-     cd server
+     cd backend
      npm start
      ```
      **Terminal Two:**
      ```sh
-     cd client
-     npm start
+     cd frontend
+     npm run dev
      ```
-
+4. Open localhost:5173 and voila!!
+   
 ## Contributing
 We welcome contributions from the community! If you'd like to contribute, please follow these steps:
 
@@ -90,9 +94,7 @@ We welcome contributions from the community! If you'd like to contribute, please
 
 Please make sure your code adheres to our coding standards and passes all tests. Thank you!
 
-## License
-This project is licensed under the MIT License.
 
-## About
-BloggingSphere is a professional MERN-based blogging application that allows users to create, read, edit, and delete blogs. Users can also like and comment on posts to engage with the content.
+
+
 
