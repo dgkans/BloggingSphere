@@ -61,11 +61,19 @@ BloggingSphere is a full-stack blogging application built using the MERN stack (
    cd BloggingSphere
    ```
 
-2. Set up environment variables:
+2. Set up environment variables and create a .env file:
    ```env
-   PORT=5000
-   MONGODB_URI=your-mongodb-uri
-   JWT_SECRET=your-secret-key
+PORT=3001
+MONOG_URI= your mongo URI
+//Copy Cloudinary account credentials
+CLOUD_NAME=cloduinary cloud name
+CLOUD_API_KEY=cloudinary cloud api key
+CLOUD_SECRET_KEY=copy your secret key 
+
+JWT_SECRET_KEY=generate and copy a jwt secret key by running cmd:
+openssl rand -base64 32
+
+FRONTEND_URL=http://localhost:5000
    ```
 
 3. Run the application:
